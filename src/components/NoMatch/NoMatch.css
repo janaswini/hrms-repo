@@ -1,0 +1,18 @@
+.noMatchContainer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    background-color:#ffff;
+
+    /* margin-top: 10%;
+    margin-left: 18vw;
+    margin-right: 3vw;
+    margin-bottom: 10%;
+    position: fixed;
+    width: 80vw; */
+
+  }
+  #hiding{
+      visibility: hidden;
+  }

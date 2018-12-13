@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+select {
+  font-family: muli-semi-bold;
+}
+
+.muli-regular{
+  font-family: muli-regular;
+}
+.muli-semi-bold{
+  font-family: muli-semi-bold;
+}
+.muli-extra-bold{
+  font-family: muli-extra-bold;
+}
+.componentContainer{
+  padding: 2%;
+  height: 100%;
+  margin: 60px 0 0 200px;
+  background-color: #F6F5F9;
+}
+.absolute{
+  position: absolute;
+
+}
+input::-webkit-input-placeholder {
+  color:#9B9AB2;
+  font-size: 16px;
+  font-family: muli-regular;
+}
+
+.tick{
+	font-size: 24px !important;
+  color: green !important;
+  -webkit-text-stroke: 0px !important;
+  margin: 5%;
+}
+.cross{
+	font-size: 24px !important;
+  color: red !important;
+  -webkit-text-stroke: 0px !important;
+  margin: 5%;
+}
+input[type=checkbox], .tick, .cross{
+  cursor: pointer;
+}
+button, input[type=button]{
+  outline: none;
+  font-family: muli-semi-bold !important;
+}
+
+input[type=text],input,textarea{
+  font-family: muli-semi-bold;
+}
+
+.greyColor{
+  color:#9B9AB2;
+}
+
+.calendarIcon{
+  background: #fff
+  url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)
+  99% 50% no-repeat !important;
+  cursor: pointer;
+}
+
+input[type=text]{
+  border: none;
+  background: none;
+  /* border-bottom: 0.1px solid #9B9AB2; */
+  outline: none;
+}
+input[type=text]:hover,input[type=text]:active,input[type=text]:visited{
+  background-color: #ffff;
+}
+@font-face {
+	font-family: "muli-bold";
+	src: url("./Assets/Fonts/Muli/Muli-Bold.ttf");
+}
+
+@font-face {
+	font-family: "muli-regular";
+	src: url("./Assets/Fonts/Muli/Muli-Regular.ttf");
+}
+
+@font-face {
+  font-family: "muli-semi-bold";
+  src: url("./Assets/Fonts/Muli/Muli-SemiBold.ttf")
+}
+
+@font-face {
+  font-family : "muli-extra-bold";
+  src: url("./Assets/Fonts/Muli/Muli-ExtraBold.ttf")
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  /* display: none; */
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.top{
+  top:20px !important;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+}
+
+/* .container:hover input ~ .checkmark {
+  background-color: #ccc;
+} */
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+left: 5px;
+  top: 2px;
+  width: 2px;
+  height: 5px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

@@ -1,0 +1,23 @@
+.rightComponent{
+    margin-top: 50px;
+    margin-left: 15vw;
+    margin-bottom:40px;
+    position: fixed;
+    }
+ 
+ .leaveRecord{
+   margin-left: 18%;
+   margin-right: 2%;
+   padding-top: 7%;
+   border-collapse: collapse;
+ }
+ 
+ .tdStyle{
+   border: 1px solid #ddd !important;
+   padding: 8px;
+ }
+ 
+
+ .myLeave{
+   margin-top: 67px;
+ }

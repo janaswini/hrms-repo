@@ -1,0 +1,48 @@
+.LeavePlan{
+    margin-left: 18%;
+    margin-right: 2%;
+    padding-top: 7%;
+    border-collapse: collapse;
+    padding-bottom: 7%;
+}
+.levtextarea, .levbutton, .levAddbutton{
+    font-family: muli-semi-bold;
+}
+
+.levbutton {
+	margin-top: -60px;
+	height: 40px;
+	width: 100px;
+	border-radius: 11px;
+	border: none;
+	font-weight: bold;
+	color: #fff;
+	background-color: #d9534f;
+	border-color: #d43f3a;
+}
+
+.levbutton:hover{
+	color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+
+.levAddbutton{
+	height: 40px;
+	width: 100px;
+	border-radius: 11px;
+	border: none;
+	font-weight: bold;
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 460px;
+}
+
+.levAddbutton:hover{
+	color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}

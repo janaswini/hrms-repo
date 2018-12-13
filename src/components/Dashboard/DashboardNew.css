@@ -1,0 +1,119 @@
+.mainContainer{
+	margin-left: 4%;
+	margin-right: 22%;
+	/* padding-top: 0%; */
+	padding-bottom: 3%;
+}
+
+.leave-requests {
+	height: 387px;
+	width: 1050px;
+}
+
+.leave-requests-12 {
+	padding-left: 6px;
+	height: auto;	
+	width: 1020px;	
+	border: 1px solid #DFDEE9;	
+	background-color: #FFFFFF;
+	
+	/* color: #A6A5B8; */
+	font-family: Muli;
+	font-size: 24px;
+	/* font-weight: 600; */
+	letter-spacing: 0.48px;
+	line-height: 30px;
+}
+
+.rectangleTable {
+			/* border: 3px solid #EEE; */
+	/* border-radius: 5px; */
+	border-collapse: collapse;
+	/* width: 100%; */
+	text-align: justify;
+	/* border-bottom: 1px solid #DFDEE9; */
+	height: auto;
+	width: 1000px !important;
+	background-color: #FFFFFF !important;
+/* border-bottom: 1px solid #DFDEE9; */
+	height: 306px;
+	width: 1000px !important;
+	background-color: #FFFFFF !important;
+}
+
+.leave-requests-12 .rectangleTableHead{
+	padding: 8px;
+	text-align: left;
+	/* border-bottom: 1px solid #ddd; */
+}
+
+.profile-avatar {
+	height: 36px;
+	width: 36px;
+	margin-right: 10px;
+	margin-bottom: -11px;
+}
+
+.selectCheckboxRequest{
+	margin-right: 10px;
+	box-sizing: border-box;
+	height: 17.43px;
+	width: 17.43px;	
+	border: 2px solid #A6A5B8;
+}
+
+.fa-times-circle-o {
+	/* font-size:48px; */
+	color:red;
+	/* background-color: red; */
+	box-sizing: border-box;	
+	height: 24px;	
+	width: 24px;	
+	/* border: 2px solid #FF0000; */
+}
+
+.fa-check-circle {
+	height: 24px;	
+	width: 24px;
+	/* font-size:48px; */
+	color: green;
+	/* background-color: green; */
+}
+
+.fa fa-search {
+	font-size:12px;
+}
+
+.leave-requests-12 .rowTable {
+
+	/* border-bottom: 1px solid #DFDEE9; */
+	width: 1000px;
+}
+
+.leave-requests-12 .rowTable:hover { 
+	background-color: #f5f5f5;
+	cursor: pointer;
+}
+
+.leave-requests-12 .rowTableHead {
+	border-bottom: 1px solid #DFDEE9;
+	color: #A6A5B8; 
+	padding-left: 2px;
+	padding-right:  2px;
+}
+
+.leave-requests-12 .rowTableBody {
+	/* border-bottom: 1px solid #DFDEE9; */
+	color: #313E50;
+}
+
+.leave-requests-p {
+	height: 30px;	
+	width: 238px;	
+	color: #A6A5B8;	
+	font-family: Muli;	
+	font-size: 24px;	
+	font-weight: 600;	
+	letter-spacing: 0.48px;	
+	line-height: 30px;
+}

@@ -1,0 +1,333 @@
+.loginPage{
+	display: inline-flex;
+	width: 100%;
+	height: 100%;
+}
+
+.hrmsLogin {
+	height: 100%;
+	width: 65%;
+}
+
+.hrms {
+    margin: 0.875em 0.938em 0.000em 2.500em;
+    height: 2.063em;
+    width: 5.313em;
+    color: #FF7D27;
+    font-family: muli-semi-bold;
+    font-size: 1.625em;
+    font-weight: bold;
+    letter-spacing: 0.013em;
+    line-height: 2.063em;
+}
+.text {
+	margin: 5.5em 43.250em 0.000em 1.563em;
+	height: 21.750em;
+	width: 37.375em;
+}
+
+.sample-text-lorem-ip {
+	margin-bottom: 45px;	
+    height: 4.250em;
+    width: 19.375em;
+    color: #808080;
+    font-family: muli-semi-bold;
+    font-size: 1.125em;
+    font-weight: 600;
+    letter-spacing: 0.037em;
+    line-height: 2.125em;
+    margin-left: 8.5em;
+}
+
+.rectangle {
+	margin-left: 10em;
+	height: 1.750em;
+	width: 8.188em;
+	border: 1px solid #808080;
+	border-radius: 1.156em;
+}
+
+.read-more {
+	margin: 0.313em 2.563em 0.313em 0.938em;
+	height: 1.125em;
+	width: 5.688em;
+	color: #808080;
+	font-family: muli-semi-bold;
+	font-size: 0.875em;
+	letter-spacing: 0.029em;
+	line-height: 1.125em;
+}
+
+.rectangle-5 {
+	margin: 0.875em 1.000em 0.813em 5.938em;
+	height: 0.063em;
+	width: 1.250em;
+	border-radius: 0.188em;
+	background-color: #808080;
+}
+
+.path-2 {
+	position: relative;
+    bottom: 1.89em;
+    left: 3.1em;
+    color: #808080;
+    /* margin: -49.5px 0.594em 0 5.625em; */
+    /* margin: 11.5px 15.5px 10.5px 112px; */
+    /* margin: -18px; */
+    /* box-sizing: border-box; */
+    height: 0.375em;
+    width: 0.219em;
+    font-size: 1.750em;
+    /* border: 1px solid #808080; */
+}
+
+.human-resource-manag {
+	margin-left: 4em;
+	margin-bottom: 45px;
+    /* margin-top: 45px; */
+    /* margin: 12.500em 43.250em 0.000em 1.563em; */
+    /* height: 10.875em; */
+    /* width: 34.875em; */
+    color: #000000;
+    font-family: muli-semi-bold;
+    font-size: 38px;
+    font-weight: unset;
+    letter-spacing: 0.025em;
+    /* line-height: 3.625em; */
+}
+
+.rectangle-2 {
+    height: -webkit-fill-available;
+    width: 35%;
+    opacity: 0.9;
+    background-color: #4C48AC;
+}
+
+.bg {
+	margin-top: 4.563em;
+	margin-right: 6.500em;
+	margin-left: -100px;
+	height: 21.375em;
+	width: 21.938em;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0 0.125em 1.500em 0.625em rgba(0,0,0,0.03);
+	box-shadow: 0 0.125em 1.500em 0.625em rgba(0,0,0,0.03);
+}
+
+.sign-in {
+	height: 1.125em;
+	width: 6.250em;
+	color: #000000;
+    font-family: muli-bold;
+	font-size: 0.875em;
+	font-weight: bold;
+	letter-spacing: 0.063em;
+	line-height: 1.125em;
+	margin-left: 2.563em;
+	padding-top: 2.500em;
+	margin-bottom: 4.375em;
+}
+
+.email {
+	margin: 0.188em 0 0.875em 2.500em;
+	height: 1.313em;
+	width: 15.625em;
+	color: #808080;
+	font-family: muli-semi-bold;
+	font-size: 1.063em;
+	font-weight: 600;
+	letter-spacing: 0.037em;
+	line-height: 1.313em;
+}
+
+.email > input {
+	border: none;
+	text-decoration: none;
+	outline: none;
+	font-size: 1.125em;
+	height: 1.875em;
+	font-family: muli-regular;
+}
+
+.passwordLogin {
+	margin: 0.188em 0 0.875em 2.500em;
+	height: 1.313em;
+	width: 15.625em;
+	color: #808080;
+	font-family: muli-semi-bold;
+	font-size: 1.063em;
+	font-weight: 600;
+	letter-spacing: 0.037em	;
+	line-height: 1.313em	;
+}
+
+.passwordLogin > input {
+	border: none;
+	text-decoration: none;
+	outline: none;
+	font-size: 1.125em;
+	height: 1.875em;
+}
+
+.loginHr{
+	width: 16.750em;
+}
+
+.remember {	
+	margin: 2.813em 13.000em
+	5.625em 2.250em;
+	height: 1.188em;	
+	width: 12.500em;
+	color: #000000;	
+	font-family: muli-semi-bold;	
+	font-size: 0.938em;	
+	letter-spacing: 0.033em;	
+	line-height: 1.188em;
+}
+
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.container .checkmark {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+	width: 15px;
+	border: 1px solid black;
+    background-color: #eee;
+}
+
+.rectangleRemember{
+	height: 0.938em;
+	width: 0.938em;
+	/* border: 0.063em	solid #979797; */
+	/* background-color: #FFFFFF; */
+}
+
+.oval {
+	margin-top: 0.750em; 
+	margin-left: 15.625em;
+	margin-bottom: 0.875em;
+	padding: 1.250em	;
+	height: 3.750em;
+	width: 3.750em;
+	background-color: #FF7D27;
+	-webkit-box-shadow: 0 0.813em 1.250em 0.438em rgba(0,0,0,0.08);
+	box-shadow: 0 0.813em 1.250em 0.438em rgba(0,0,0,0.08);
+	border-radius: 50%;
+}
+
+.oval > i {
+  border: solid white;
+  border-width: 0 0.188em 0.188em 0;
+  display: inline-block;
+	padding: 0.188em;
+	padding: 0.500em;
+	margin-bottom: -6px;
+}
+
+.submitButtonLogin{
+	border: solid white;
+	border-width: 0 0.188em 0.188em 0;
+	display: inline-block;
+	  padding: 0.188em;
+	  padding: 0.500em;
+	  margin-bottom: -6px;
+	background-color: transparent;
+	transform: rotate(-45deg);
+	position: relative;
+	top: -4px;
+}
+
+/* .submitButtonLogin > .rightOval {
+	margin-right: 0.375em;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	padding: 0.500em	;
+	margin-bottom: -6px;
+} */
+
+.don-t-have-an-accoun {	
+	margin: 2.250em 13.313em 0 1.813em;
+	height: 1.313em;
+	width: 12.375em	;
+	color: #FFFFFF;
+	font-family: muli-semi-bold;
+	font-size: 1.125em;
+	letter-spacing: 0.037em	;
+	line-height: 1.313em;
+	text-align: right
+}
+
+.sign-up {
+	background-color: #4C48AC;
+    border: 1px solid #ffffff;
+    outline: none;
+    position: relative;
+    bottom: 1.688em;
+    left: 4.688em;
+    margin: 0px 5.813em 0px 16.000em;
+    height: 1.750em;
+    width: 9.563em;
+    font-size: 0.875em;
+    font-weight: bold;
+    /* border: 0.063em solid #FFFFFF; */
+    border-radius: 1.156em;
+    /* -webkit-box-shadow: 0 0.313em 0.75em 0 rgba(0,0,0,0.14); */
+    /* box-shadow: 0 0.313em 0.75em 0 rgba(0,0,0,0.14); */
+    color: white;
+}
+
+.oval{
+	cursor: pointer;
+}
+
+.modal > .close {
+	cursor: pointer;
+	position: absolute;
+	display: block;
+	padding: 2px 5px;
+	line-height: 20px;
+	right: -10px;
+	top: -10px;
+	font-size: 24px;
+	background: #ffffff;
+	border-radius: 18px;
+	border: 1px solid #cfcece;
+  }
+

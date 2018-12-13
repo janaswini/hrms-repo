@@ -1,0 +1,84 @@
+#modal > a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 10px;
+  left: 740px;
+  font-size: 25px;
+}
+
+.policySubmitButton {
+  height: 40px;
+  width: 100px;
+  border-radius: 11px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 400px;
+}
+
+.policySubmitButton:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+.popUpAdd {
+  margin-top: 50px;
+}
+
+.popUpAddName {
+  margin: 20px;
+}
+
+.popUpAddDays {
+  margin: 20px;
+}
+
+.popUpAddTerms {
+  margin: 20px;
+}
+
+.popUpAddName > label {
+  float: left;
+  margin-top: 14px;
+  width: 30%;
+}
+.popUpAddDays > label {
+  float: left;
+  width: 30%;
+  margin-top: 14px;
+}
+.popUpAddTerms > label {
+  float: left;
+  width: 30%;
+  margin-top: 14px;
+}
+
+.popUpAddName > input {
+  width: 60%;
+  padding: 11px;
+  border: 1px solid #d5c9c9;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.popUpAddDays > input {
+  width: 60%;
+  padding: 11px;
+  border: 1px solid #d5c9c9;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.popUpAddTerms > input {
+  width: 60%;
+  padding: 11px;
+  border: 1px solid #d5c9c9;
+  border-radius: 4px;
+  margin-left: 10px;
+}

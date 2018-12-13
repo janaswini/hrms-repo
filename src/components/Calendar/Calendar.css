@@ -1,0 +1,58 @@
+#fullCalendarContainer{
+  display: flex;
+  width: 100%;
+}
+#fullCalendarMainContainer{
+  overflow-y: scroll;
+}
+
+#fullCalendarMainContainer::-webkit-scrollbar {
+  display: none;
+}
+/* .fc-popover{
+  height: 15% !important;
+  overflow-y: scroll;
+  background-color: #ffff;
+  border: 1px solid #EDEDED;
+  border-radius: 3px;
+}
+.pop-overlay{
+  background: none !important;
+} */
+
+/* .popup-overlay{
+    pointer-events: none;
+}
+.popup-content button{
+    pointer-events: stroke;
+} */
+
+.popUp{
+  height: 33% !important;   
+  width: 20%;
+  overflow-y: hidden !important;
+  padding-left: 10px;
+}
+.popUp .marginLeft{
+  margin-left: 90%;
+  cursor: pointer;
+}
+
+.Approved{
+  background: #2e8c16;
+  border: #2e8c16 !important;
+}
+
+.Rejected{
+  background: #a81515 !important;
+  border:1px solid #a81515 !important;
+}
+.popUpImp
+{
+  background-color: #ffff;
+  border: 1px solid #EDEDED;
+  border-radius: 3px;
+  z-index: 2;
+  position: absolute;
+  box-shadow: 0 2px 6px rgba(0,0,0,.15);
+}

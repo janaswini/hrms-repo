@@ -1,0 +1,80 @@
+  * {
+  box-sizing: border-box;
+  }
+  .rightComponent{
+  margin-top: 50px;
+  margin-left: 15vw;
+  margin-bottom:40px;
+  position: fixed;
+  }
+
+  .tableWrapper table{
+  font-family: 'muli-regular';
+  border-collapse: collapse;
+  }
+  .tableCss td,th{
+  border: none !important;
+  }
+  .tableCss tr:hover{
+    background-color: #F6F5F9;
+    /* cursor: pointer; */
+  }
+  .tableCss .tdDivider{
+  border-top: 1px solid #DFDEE9;
+  }
+  .tableCss td{
+  width: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  padding-left: 1%;
+  }
+  .tableCss .thClass{
+  color: #9B9AB2;
+  }
+  .tableCss .tdClass{
+  font-family: muli-semi-bold;
+  font-size: 16px;
+  color: #313E50;
+  font-weight: 600;
+  }
+  .tdClass .empName{
+    position: relative;
+    top: -13px;
+    left: 5%;
+  }
+  .tableWrapper{
+  border: 1px solid #DFDEE9;
+  background-color: #FFFFFF;
+  padding: 0 2% 0 2%;
+  margin: 3% 0 3% 0;
+  }
+  .tableLabels{
+    font-family: muli-regular;
+    font-size: 24px;
+    font-weight: 600;
+    color: #313E50;
+  }
+  .searchField{
+    border: none;
+    outline: none;
+    margin-left: 5%;
+  }
+  .searchField:hover{
+    background-color: #F6F5F9;
+  }
+
+  .react-datepicker__close-icon {
+  top: 3px;
+  left:134px;
+  }
+
+  .displayDate{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  }
+
+
+
+
+

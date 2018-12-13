@@ -1,0 +1,71 @@
+
+
+
+#leaveRecord .tableDiv {
+  margin-top: 10%;
+	height: 100%;
+}
+.tableDiv .recRow {
+	border-bottom: 1px solid #DFDEE9;
+}
+.tableDiv .tableContent{
+	border-collapse: collapse;
+	width: 100%;
+}
+.recRow .recCell, .normal .recCell {
+	padding: 2%;
+}
+.recCell .Approve {
+	text-align: center;
+	height: 100%;
+	display: block;
+  border-radius: 50%;
+  border: 2px solid #A6A5B8;
+  color: white;
+  width: 53%;
+  margin-left: 20%;
+}
+.tableDiv .recRow:hover, .tableDiv .normal:hover {
+	background-color: #F6F5F9;
+	cursor: pointer;
+}
+.tableContent .Head:hover {
+	cursor: default;
+}
+.recCell .check {
+	border-radius: 50%;
+}
+.Approve .fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	color: #A6A5B8;
+}
+#leaveRecord table{
+  font-family: 'muli-regular';
+  border-collapse: collapse;
+}
+.col{
+	float: left;
+	width: 32%;
+	padding: 10px;
+}
+.col2{
+	margin-top:13px;
+	float: left;
+	width: 32%;
+	padding: 10px;
+}
+
+.get{
+	width: 67px;
+	margin-top:10px;
+	height: 40px;
+	border-radius: 12px;
+	border:none;
+	font-weight: bold;
+	background-color: rgb(63, 115, 198);
+	color: white;
+}

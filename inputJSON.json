@@ -1,0 +1,167 @@
+{
+    "Employee": [
+      {
+        "EmpName": "Jana",
+        "Dob": "2015-10-30",
+        "Doj": "2017-11-30",
+        "wl": "New Jersey",
+        "gender": "male",
+        "EmailId": "jana@gmail.com",
+        "ContactNum": "8668012810",
+        "Dep": "ANDROID",
+        "Password": "tringapps",
+        "validation": false,
+        "Role": "Employer",
+        "EmpId": "2",
+        "Address": "chennai",
+        "PendingLeaves": {
+          "Planned": 10,
+          "EmergencyLeave": 10,
+          "Sick": 10,
+          "Privilege": 10
+        }
+      }
+    ],
+    "holidays": [
+      "2018-01-01",
+      "2018-01-14",
+      "2018-01-15",
+      "2018-01-16",
+      "2018-01-26",
+      "2018-03-18",
+      "2018-03-29",
+      "2018-03-30",
+      "2018-04-14",
+      "2018-05-01",
+      "2018-06-15",
+      "2018-08-22",
+      "2018-09-13",
+      "2018-09-21",
+      "2018-10-02",
+      "2018-10-18",
+      "2018-10-19",
+      "2018-11-06",
+      "2018-12-25"
+    ],
+    "leaveRequest": [],
+    "holidayList": [
+      {
+        "date": "2018-01-01",
+        "day": "Monday",
+        "occasion": "New Year's Day"
+      },
+      {
+        "date": "2018-01-14",
+        "day": "Sunday",
+        "occasion": "Pongal"
+      },
+      {
+        "date": "2018-01-15",
+        "day": "Monday",
+        "occasion": "Thiruvalluvar Day"
+      },
+      {
+        "date": "2018-01-16",
+        "day": "Tuesday",
+        "occasion": "Uzhavar Tirunal"
+      },
+      {
+        "date": "2018-01-26",
+        "day": "Firday",
+        "occasion": "Republic Day"
+      },
+      {
+        "date": "2018-03-18",
+        "day": "Sunday",
+        "occasion": "Ugadi"
+      },
+      {
+        "date": "2018-03-29",
+        "day": "Thursday",
+        "occasion": "Mahavir Jayanthi"
+      },
+      {
+        "date": "2018-03-30",
+        "day": "Friday",
+        "occasion": "Good Friday"
+      },
+      {
+        "date": "2018-04-14",
+        "day": "Saturday",
+        "occasion": "Tamil New Year"
+      },
+      {
+        "date": "2018-05-01",
+        "day": "Tuesday",
+        "occasion": "May Day"
+      },
+      {
+        "date": "2018-06-15",
+        "day": "Firday",
+        "occasion": "Id-ul-Fitr"
+      },
+      {
+        "date": "2018-08-22",
+        "day": "Wednesday",
+        "occasion": "Bakrid"
+      },
+      {
+        "date": "2018-09-13",
+        "day": "Thursday",
+        "occasion": "Vinayagar Chathurthi"
+      },
+      {
+        "date": "2018-09-21",
+        "day": "Firday",
+        "occasion": "Muharram"
+      },
+      {
+        "date": "2018-10-02",
+        "day": "Tuesday",
+        "occasion": "Gandhi Jayanthi"
+      },
+      {
+        "date": "2018-10-18",
+        "day": "Thursday",
+        "occasion": "Ayudha Pooja"
+      },
+      {
+        "date": "2018-10-19",
+        "day": "Firday",
+        "occasion": "Vijayadasami"
+      },
+      {
+        "date": "2018-11-06",
+        "day": "Tuesday",
+        "occasion": "Diwali"
+      },
+      {
+        "date": "2018-12-25",
+        "day": "Tuesday",
+        "occasion": "Christmas"
+      }
+    ],
+    "leavePolicy": [
+      {
+        "Name": "Casual Leave",
+        "Days": "7",
+        "Terms": "7 days for 12 months service"
+      },
+      {
+        "Name": "Sick Leave",
+        "Days": "5",
+        "Terms": "5 days for 12 months service"
+      },
+      {
+        "Name": "Maternity Leave",
+        "Days": "180",
+        "Terms": "180 days for 12 months service"
+      },
+      {
+        "Name": "Vacation Leave/Medical Leave",
+        "Days": "9",
+        "Terms": "9 days for 12 months service"
+      }
+    ],
+    "deleteRow": []
+  }

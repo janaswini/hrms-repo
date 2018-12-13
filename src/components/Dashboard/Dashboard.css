@@ -1,0 +1,83 @@
+.dashboardRightComponent {
+  margin-top: 10%;
+  margin-left: 18vw;
+  margin-right: 3vw;
+  margin-bottom: 10%;
+  position: fixed;
+  width: 80vw;
+}
+
+#dashboardContainer{
+  display: flex;
+}
+
+.dashboardRightComponent h1,h2{
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.cardOuter{
+  border: 1px solid #3770B7;
+  border-radius: 3px;
+  width: 13vw;
+  margin: 15px;
+}
+.empDashboardWidth{
+  width: 84.4%;
+}
+.cardContainer {
+  display: flex;
+  background: #3770B7;
+  color: #ffff;
+  border: 1px solid #3770B7;
+  border-radius: 3px;
+  width: 13vw;
+  margin-right: 3vh;    
+}
+
+.cardContainer .icon {
+  width: 4vw;
+  padding: 10px;
+}
+
+.cardContainer .right{
+  width: 9vw;
+}
+
+.cardContainer .right .icon-text{
+  margin: 10px 0 10px 0;
+  font-size: 13px;
+}
+
+.cardContainer .right .icon-count{
+  margin-top: 5px;
+  margin-left: 70px;
+  font-size: 40px;
+}
+
+.divider{
+  border-bottom: 1px solid #eee;
+  width: 100%;
+}
+
+.dashboardRightComponent .cursor{
+  cursor: pointer;
+}
+
+.viewDetails{
+  display: flex;
+  justify-content: space-between;
+  color:#337ab7;
+  background:#EDEDED; 
+}
+
+.viewDetails:hover{
+  color: #23527c;
+}
+
+.viewDetails div {
+  font-size: 15px;
+  margin: 8px;
+}

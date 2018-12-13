@@ -1,0 +1,96 @@
+.policy {
+  margin-left: 20%;
+  margin-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+#modal > a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 15px;
+  left: 400px;
+}
+
+#modalView > a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 400px;
+}
+
+.policyTextarea {
+  /* border-bottom: 1px solid black; */
+  width: 250px;
+  height: 35px;
+  outline: none;
+  font-family: muli-regular;
+}
+
+.headerLeavePolicy {
+  text-align: center;
+}
+
+.policyViewButton {
+  float: right;
+  /* margin-top: -60px; */
+  height: 40px;
+  width: 100px;
+  border-radius: 11px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.policyViewButton:hover {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
+.policyDeleteButton {
+  margin-top: -60px;
+  height: 40px;
+  width: 100px;
+  border-radius: 11px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.policyDeleteButton:hover {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+
+.mandatory {
+  color: red;
+  margin-top: 5%;
+}
+
+.policyAddButton {
+  height: 40px;
+  width: 100px;
+  border-radius: 11px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 460px;
+}
+
+.policyAddButton:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}

@@ -1,0 +1,106 @@
+.profile {
+  margin-left: 16%;
+  margin-right: 1%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #efefef;
+}
+
+#userProfileContainer h2, .userForm, .UserProfile{
+  font-family: muli-semi-bold;
+}
+
+.UserProfile {
+  text-align: center;
+  color: cadetblue;
+}
+
+.textArea {
+  width: 200px;
+}
+
+.userForm {
+  display: inline-flex;
+}
+
+.profileImage {
+  height: 150px;
+  width: 150px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.input {
+  margin-left: 100px;
+  width: 50%;
+  height: 50px;
+}
+
+.inputLabel {
+  float: left;
+  width: 218px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.profileInfoEmail {
+  padding: 10px;
+  margin: 10px;
+  margin-left: 122px;
+}
+
+.inputLabelEmail {
+  margin-left: -10px;
+  font-weight: bold;
+}
+
+.inputEmail {
+  margin-left: 250px;
+}
+
+.hrProfile {
+  margin-left: 100px;
+}
+
+.requestProfileEditButton {
+  height: 40px;
+  width: 200px;
+  border-radius: 11px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 460px;
+}
+
+.requestProfileEditButton:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+#modalEditProfile > a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  left: 646px;
+  font-size: 25px;
+  top: -390px;
+}
+
+#modalEditProfile {
+  padding-top: 1px;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.profileInfo {
+  padding: 10px;
+  margin: 10px;
+}
+
+.popUpAddMainProfile {
+  margin-top: 95px;
+}
